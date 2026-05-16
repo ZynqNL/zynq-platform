@@ -1,0 +1,411 @@
+{
+  "common": {
+    "appName": "Zynq",
+    "tagline": "Vitaliteit begint bij leiderschap",
+    "description": "Zynq staat voor vitaliteit op de werkvloer — concreet, menselijk en betrouwbaar.",
+    "nav": {
+      "home": "Home",
+      "services": "Diensten",
+      "pricing": "Prijzen",
+      "contact": "Contact",
+      "login": "Inloggen",
+      "register": "Aanmelden"
+    },
+    "buttons": {
+      "startNow": "Begin Nu",
+      "learnMore": "Leer Meer",
+      "contactUs": "Neem Contact Op",
+      "getStarted": "Aan de Slag",
+      "save": "Opslaan",
+      "cancel": "Annuleren",
+      "delete": "Verwijderen",
+      "edit": "Bewerken",
+      "add": "Toevoegen",
+      "search": "Zoeken",
+      "back": "Terug"
+    },
+    "status": {
+      "active": "Actief",
+      "inactive": "Inactief",
+      "pending": "In behandeling",
+      "approved": "Goedgekeurd",
+      "rejected": "Afgewezen",
+      "suspended": "Opgeschort",
+      "draft": "Concept",
+      "archived": "Gearchiveerd",
+      "confirmed": "Bevestigd",
+      "fulfilled": "Afgerond",
+      "cancelled": "Geannuleerd"
+    }
+  },
+  "hero": {
+    "title": "Vitaliteit begint bij leiderschap",
+    "subtitle": "Zynq staat voor vitaliteit op de werkvloer — concreet, menselijk en betrouwbaar. Wij helpen jou en je team om duurzaam te presteren.",
+    "cta": "Begin Nu"
+  },
+  "services": {
+    "title": "Onze Aanpak: Duidelijk, Praktisch, Effectief",
+    "cards": {
+      "policy": {
+        "title": "Vitaliteitsbeleid",
+        "description": "Wij helpen jullie met het ontwikkelen en implementeren van een robuust vitaliteitsbeleid. Concreet, meetbaar en afgestemd op de unieke behoeften van jullie organisatie."
+      },
+      "workshops": {
+        "title": "Workshops",
+        "description": "Praktische workshops voor leidinggevenden en teams over stresspreventie, duurzame inzetbaarheid en het creëren van een positieve werksfeer. Direct toepasbaar."
+      },
+      "advice": {
+        "title": "Strategisch Advies",
+        "description": "Strategisch advies op maat om vitale bedrijfscultuur te verankeren. Denk aan structurele oplossingen die bijdragen aan lange termijn succes en minder verzuim."
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Inloggen",
+      "email": "E-mailadres",
+      "password": "Wachtwoord",
+      "submit": "Inloggen",
+      "magicLink": "Inloggen met magic link",
+      "noAccount": "Nog geen account?",
+      "register": "Aanmelden",
+      "forgotPassword": "Wachtwoord vergeten?",
+      "resetPassword": "Wachtwoord herstellen"
+    },
+    "register": {
+      "company": {
+        "title": "Bedrijf Aanmelden",
+        "companyName": "Bedrijfsnaam",
+        "domain": "Bedrijfsdomein",
+        "domainHint": "bijv. zynq.nl — werknemers met dit e-maildomein worden automatisch gekoppeld",
+        "contactEmail": "Contact e-mail",
+        "plan": "Plan",
+        "submit": "Aanmelden"
+      },
+      "employee": {
+        "title": "Werknemer Aanmelden",
+        "name": "Naam",
+        "email": "E-mailadres",
+        "submit": "Aanmelden",
+        "noCompany": "Je werkgever is nog niet aangesloten",
+        "requestCompany": "Vraag je werkgever om Zynq te gebruiken"
+      },
+      "provider": {
+        "title": "Aanbieder Aanmelden",
+        "name": "Bedrijfsnaam",
+        "description": "Beschrijving",
+        "category": "Categorie",
+        "contactEmail": "Contact e-mail",
+        "website": "Website",
+        "submit": "Aanvragen",
+        "pendingMessage": "Je aanvraag is in behandeling. We nemen zo snel mogelijk contact op."
+      }
+    }
+  },
+  "employer": {
+    "dashboard": {
+      "title": "Dashboard",
+      "activeEmployees": "Actieve Werknemers",
+      "totalBudget": "Totaal Budget",
+      "totalSpent": "Totaal Besteed",
+      "utilization": "Benuttingsgraad",
+      "utilizationChart": "Budget Benutting (Maandelijks)",
+      "addBonus": "Bonus Budget Toevoegen",
+      "addBonusDesc": "Geef je team extra vitaliteitsbudget",
+      "manageEmployees": "Werknemers Beheren",
+      "manageEmployeesDesc": "FTE scores en status bijwerken",
+      "reports": "Rapporten",
+      "reportsDesc": "Geaggregeerde vitaliteitsdata"
+    },
+    "employees": {
+      "title": "Werknemers",
+      "subtitle": "FTE scores, status en import",
+      "name": "Naam",
+      "email": "E-mail",
+      "fte": "FTE",
+      "status": "Status",
+      "budgetRemaining": "Budget Resterend",
+      "invite": "Uitnodigen",
+      "importCsv": "CSV Importeren",
+      "downloadTemplate": "Template",
+      "addEmployee": "Werknemer Toevoegen",
+      "csvPreview": "CSV Voorbeeld",
+      "rows": "rijen",
+      "import": "Importeren",
+      "searchPlaceholder": "Zoek op naam of e-mail...",
+      "noResults": "Geen werknemers gevonden",
+      "fteScore": "FTE Score (0.0 - 1.0)",
+      "departed": "Vertrokken"
+    },
+    "budgets": {
+      "title": "Budgetten",
+      "subtitle": "Bonus budget toewijzen",
+      "bulkBonus": "Bulk Bonus",
+      "amountPerEmployee": "Bedrag per werknemer (€)",
+      "apply": "Toepassen",
+      "individualBonuses": "Individuele Bonussen",
+      "currentBonus": "Huidige bonus",
+      "allocate": "Bonussen Toewijzen",
+      "processing": "Verwerken...",
+      "success": "Bonus succesvol toegewezen!",
+      "noPeriod": "Geen open budget periode. Budgetten worden automatisch aangemaakt aan het begin van elke maand.",
+      "bonusSet": "bonus ingesteld voor",
+      "employees": "werknemers",
+      "total": "totaal"
+    },
+    "reports": {
+      "title": "Rapporten",
+      "subtitle": "Geaggregeerde vitaliteitsdata — individuele aankopen zijn niet zichtbaar",
+      "period": "Periode",
+      "employees": "Werknemers",
+      "totalBudget": "Totaal Budget",
+      "spent": "Besteed",
+      "utilization": "Benutting",
+      "noData": "Nog geen rapportage data beschikbaar",
+      "privacyNote": "Privacy: Deze rapporten bevatten alleen geaggregeerde data. Individuele aankopen van werknemers zijn niet zichtbaar, conform ons double-blind privacybeleid."
+    },
+    "settings": {
+      "title": "Instellingen",
+      "subtitle": "Bedrijfsinstellingen beheren",
+      "companyInfo": "Bedrijfsinformatie",
+      "companyName": "Bedrijfsnaam",
+      "domain": "E-mail domein",
+      "feePerFte": "Maandelijks tarief per FTE",
+      "subscription": "Abonnement",
+      "contactPerson": "Contactpersoon",
+      "note": "Wijzigingen in bedrijfsinstellingen kunnen worden aangevraagd door contact op te nemen met support@zynq.nl"
+    },
+    "privacy": {
+      "title": "Privacy",
+      "message": "Je werknemers kiezen zelf hun vitaliteit. Wij respecteren hun privacy — je ziet alleen geaggregeerde data."
+    }
+  },
+  "employee": {
+    "dashboard": {
+      "title": "Mijn Dashboard",
+      "budget": "Mijn Budget",
+      "total": "Totaal",
+      "spent": "Besteed",
+      "remaining": "Resterend",
+      "marketplace": "Marketplace",
+      "myOrders": "Mijn Bestellingen",
+      "recentOrders": "Recente Bestellingen",
+      "recommended": "Aanbevolen",
+      "noOrders": "Nog geen bestellingen",
+      "browseMarketplace": "Browse de marketplace"
+    },
+    "marketplace": {
+      "title": "Marketplace",
+      "search": "Zoeken...",
+      "categories": {
+        "all": "Alles",
+        "fitness": "Fitness",
+        "mindfulness": "Mindfulness",
+        "coaching": "Coaching",
+        "nutrition": "Voeding"
+      },
+      "purchase": "Kopen met Budget",
+      "confirmPurchase": "Bestelling Bevestigen",
+      "insufficientBudget": "Onvoldoende budget",
+      "available": "beschikbaar",
+      "noResults": "Geen resultaten gevonden",
+      "noOfferings": "Nog geen aanbod beschikbaar",
+      "offerings": "aanbod",
+      "previous": "Vorige",
+      "next": "Volgende",
+      "orderSuccess": "Bestelling succesvol! Je budget is bijgewerkt."
+    },
+    "orders": {
+      "title": "Mijn Bestellingen",
+      "subtitle": "Overzicht van je aankopen",
+      "date": "Datum",
+      "offering": "Aanbod",
+      "amount": "Bedrag",
+      "status": "Status",
+      "noOrders": "Nog geen bestellingen",
+      "browseMarketplace": "Browse de marketplace om je eerste bestelling te plaatsen"
+    },
+    "profile": {
+      "title": "Profiel",
+      "subtitle": "Je persoonlijke instellingen",
+      "personalInfo": "Persoonlijke informatie",
+      "name": "Naam",
+      "email": "E-mail",
+      "fte": "FTE Score",
+      "company": "Bedrijf",
+      "preferences": "Voorkeuren",
+      "language": "Taal",
+      "languageNote": "Je taalvoorkeur wordt gebruikt voor de marketplace en e-mails"
+    }
+  },
+  "provider": {
+    "dashboard": {
+      "title": "Dashboard",
+      "totalOrders": "Totaal Bestellingen",
+      "totalRevenue": "Totale Omzet",
+      "activeOfferings": "Actief Aanbod",
+      "recentOrders": "Recente Bestellingen",
+      "noOrders": "Nog geen bestellingen",
+      "createOffering": "Aanbod Aanmaken",
+      "viewOrders": "Bestellingen Bekijken",
+      "viewAnalytics": "Analytics Bekijken"
+    },
+    "offerings": {
+      "title": "Mijn Aanbod",
+      "subtitle": "Beheer je producten en diensten",
+      "createNew": "Nieuw Aanbod",
+      "name": "Naam",
+      "description": "Beschrijving",
+      "price": "Prijs",
+      "category": "Categorie",
+      "type": "Type",
+      "duration": "Duur (maanden)",
+      "imageUrl": "Afbeelding URL",
+      "status": "Status",
+      "create": "Aanbod Aanmaken",
+      "creating": "Aanmaken...",
+      "noOfferings": "Nog geen aanbod",
+      "createFirst": "Maak je eerste aanbod aan"
+    },
+    "orders": {
+      "title": "Bestellingen",
+      "subtitle": "Overzicht van alle bestellingen voor jouw aanbod",
+      "noOfferings": "Nog geen aanbod, dus geen bestellingen",
+      "noOrders": "Nog geen bestellingen",
+      "employee": "Werknemer",
+      "anonymous": "Anoniem",
+      "pending": "In behandeling",
+      "confirmed": "Bevestigd",
+      "fulfilled": "Afgerond"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "subtitle": "Inzichten in je prestaties",
+      "totalOrders": "Totaal Bestellingen",
+      "totalRevenue": "Totale Omzet",
+      "uniqueCustomers": "Unieke Klanten",
+      "topOfferings": "Top Aanbod",
+      "perPiece": "per stuk",
+      "orders": "bestellingen",
+      "noData": "Nog geen aanbod om analytics voor te tonen"
+    },
+    "settings": {
+      "title": "Instellingen",
+      "subtitle": "Beheer je provider profiel",
+      "companyInfo": "Bedrijfsinformatie",
+      "name": "Naam",
+      "description": "Beschrijving",
+      "category": "Categorie",
+      "contactEmail": "Contact e-mail",
+      "website": "Website",
+      "status": "Status",
+      "note": "Wijzigingen in je profiel kunnen worden aangevraagd door contact op te nemen met support@zynq.nl"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "subtitle": "Platformbeheer en moderatie",
+      "companies": "Bedrijven",
+      "providers": "Aanbieders",
+      "offerings": "Aanbod",
+      "pending": "Wachtend",
+      "drafts": "Concepten",
+      "manageCompanies": "Bedrijven Beheren",
+      "manageCompaniesDesc": "Status, tarieven en abonnementen",
+      "moderateProviders": "Aanbieders Moderatie",
+      "moderateProvidersDesc": "Goedkeuren, afwijzen of opschorten",
+      "reviewOfferings": "Aanbod Controle",
+      "reviewOfferingsDesc": "Kwaliteitscontrole en activatie",
+      "platformSettings": "Platform Instellingen",
+      "platformSettingsDesc": "Configuratie en beveiliging",
+      "privacyTitle": "Double-Blind Privacy",
+      "privacyMessage": "Als platformbeheerder heb je geen toegang tot individuele aankopen van werknemers. Alleen geaggregeerde data is zichtbaar."
+    },
+    "companies": {
+      "title": "Bedrijven",
+      "subtitle": "Status, tarieven en abonnementen beheren",
+      "name": "Naam",
+      "domain": "Domein",
+      "feePerFte": "Tarief/FTE",
+      "plan": "Abonnement",
+      "status": "Status",
+      "actions": "Acties",
+      "searchPlaceholder": "Zoek op naam of domein...",
+      "noResults": "Geen bedrijven gevonden",
+      "activate": "Activeren",
+      "suspend": "Opschorten"
+    },
+    "providers": {
+      "title": "Aanbieders",
+      "subtitle": "Goedkeuren, afwijzen of opschorten",
+      "searchPlaceholder": "Zoek op naam of categorie...",
+      "all": "Alle",
+      "pending": "Wachtend",
+      "approved": "Goedgekeurd",
+      "rejected": "Afgewezen",
+      "suspended": "Opgeschort",
+      "selfService": "Self-Service",
+      "approve": "Goedkeuren",
+      "reject": "Afwijzen",
+      "reactivate": "Heractiveren",
+      "noResults": "Geen aanbieders gevonden"
+    },
+    "offerings": {
+      "title": "Aanbod",
+      "subtitle": "Kwaliteitscontrole en activatie",
+      "searchPlaceholder": "Zoek op naam, categorie of aanbieder...",
+      "all": "Alle",
+      "draft": "Concept",
+      "active": "Actief",
+      "archived": "Gearchiveerd",
+      "activate": "Activeren",
+      "archive": "Archiveren",
+      "reactivate": "Heractiveren",
+      "noResults": "Geen aanbod gevonden",
+      "months": "maanden"
+    },
+    "settings": {
+      "title": "Platform Instellingen",
+      "subtitle": "Configuratie en platform statistieken",
+      "platformStats": "Platform Statistieken",
+      "totalCompanies": "Bedrijven",
+      "totalEmployees": "Werknemers",
+      "totalProviders": "Aanbieders",
+      "activeOfferings": "Actief Aanbod",
+      "totalOrders": "Bestellingen",
+      "platformConfig": "Platform Configuratie",
+      "defaultFeePerFte": "Standaard tarief per FTE (€)",
+      "defaultLanguage": "Standaard taal",
+      "supportedLanguages": "Ondersteunde talen",
+      "monthlyBillingCron": "Maandelijkse facturatie cron",
+      "active": "actief",
+      "security": "Beveiliging",
+      "rlsTitle": "Double-Blind RLS",
+      "rlsDesc": "Werkgevers hebben geen toegang tot individuele bestellingen",
+      "domainMatchingTitle": "E-mail domein matching",
+      "domainMatchingDesc": "Werknemers kunnen alleen bij hun bedrijf aansluiten",
+      "cronProtectionTitle": "Cron bescherming",
+      "cronProtectionDesc": "Maandelijkse facturatie vereist CRON_SECRET",
+      "contactNote": "Voor wijzigingen in platformconfiguratie of ondersteuning, neem contact op met support@zynq.nl"
+    }
+  },
+  "footer": {
+    "rights": "Alle rechten voorbehouden",
+    "privacy": "Privacybeleid",
+    "terms": "Voorwaarden"
+  },
+  "errors": {
+    "notFound": {
+      "title": "Pagina niet gevonden",
+      "message": "De pagina die je zoekt bestaat niet of is verplaatst.",
+      "backHome": "Terug naar home"
+    },
+    "serverError": {
+      "title": "Er ging iets mis",
+      "message": "Een onverwachte fout is opgetreden. Probeer het opnieuw of neem contact op met support.",
+      "retry": "Opnieuw proberen",
+      "backHome": "Terug naar home"
+    }
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "common": {
+    "appName": "Zynq",
+    "tagline": "Vitality starts with leadership",
+    "description": "Zynq stands for vitality in the workplace — concrete, human, and reliable.",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "pricing": "Pricing",
+      "contact": "Contact",
+      "login": "Login",
+      "register": "Register"
+    },
+    "buttons": {
+      "startNow": "Start Now",
+      "learnMore": "Learn More",
+      "contactUs": "Contact Us",
+      "getStarted": "Get Started",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "add": "Add",
+      "search": "Search",
+      "back": "Back"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "suspended": "Suspended",
+      "draft": "Draft",
+      "archived": "Archived",
+      "confirmed": "Confirmed",
+      "fulfilled": "Fulfilled",
+      "cancelled": "Cancelled"
+    }
+  },
+  "hero": {
+    "title": "Vitality starts with leadership",
+    "subtitle": "Zynq stands for vitality in the workplace — concrete, human, and reliable. We help you and your team to perform sustainably.",
+    "cta": "Start Now"
+  },
+  "services": {
+    "title": "Our Approach: Clear, Practical, Effective",
+    "cards": {
+      "policy": {
+        "title": "Vitality Policy",
+        "description": "We help you develop and implement a robust vitality policy. Concrete, measurable, and tailored to the unique needs of your organization."
+      },
+      "workshops": {
+        "title": "Workshops",
+        "description": "Practical workshops for managers and teams on stress prevention, sustainable employability, and creating a positive work atmosphere. Immediately applicable."
+      },
+      "advice": {
+        "title": "Strategic Advice",
+        "description": "Custom strategic advice to anchor a vital company culture. Think structural solutions that contribute to long-term success and less absenteeism."
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Login",
+      "magicLink": "Login with magic link",
+      "noAccount": "No account yet?",
+      "register": "Register",
+      "forgotPassword": "Forgot password?",
+      "resetPassword": "Reset password"
+    },
+    "register": {
+      "company": {
+        "title": "Register Company",
+        "companyName": "Company Name",
+        "domain": "Company Domain",
+        "domainHint": "e.g. zynq.com — employees with this email domain are automatically linked",
+        "contactEmail": "Contact Email",
+        "plan": "Plan",
+        "submit": "Register"
+      },
+      "employee": {
+        "title": "Employee Registration",
+        "name": "Name",
+        "email": "Email",
+        "submit": "Register",
+        "noCompany": "Your employer is not yet connected",
+        "requestCompany": "Ask your employer to use Zynq"
+      },
+      "provider": {
+        "title": "Provider Registration",
+        "name": "Company Name",
+        "description": "Description",
+        "category": "Category",
+        "contactEmail": "Contact Email",
+        "website": "Website",
+        "submit": "Apply",
+        "pendingMessage": "Your application is pending. We will contact you as soon as possible."
+      }
+    }
+  },
+  "employer": {
+    "dashboard": {
+      "title": "Dashboard",
+      "activeEmployees": "Active Employees",
+      "totalBudget": "Total Budget",
+      "totalSpent": "Total Spent",
+      "utilization": "Utilization Rate",
+      "utilizationChart": "Budget Utilization (Monthly)",
+      "addBonus": "Add Bonus Budget",
+      "addBonusDesc": "Give your team extra vitality budget",
+      "manageEmployees": "Manage Employees",
+      "manageEmployeesDesc": "Update FTE scores and status",
+      "reports": "Reports",
+      "reportsDesc": "Aggregated vitality data"
+    },
+    "employees": {
+      "title": "Employees",
+      "subtitle": "FTE scores, status, and import",
+      "name": "Name",
+      "email": "Email",
+      "fte": "FTE",
+      "status": "Status",
+      "budgetRemaining": "Budget Remaining",
+      "invite": "Invite",
+      "importCsv": "CSV Import",
+      "downloadTemplate": "Template",
+      "addEmployee": "Add Employee",
+      "csvPreview": "CSV Preview",
+      "rows": "rows",
+      "import": "Import",
+      "searchPlaceholder": "Search by name or email...",
+      "noResults": "No employees found",
+      "fteScore": "FTE Score (0.0 - 1.0)",
+      "departed": "Departed"
+    },
+    "budgets": {
+      "title": "Budgets",
+      "subtitle": "Allocate bonus budget",
+      "bulkBonus": "Bulk Bonus",
+      "amountPerEmployee": "Amount per employee (€)",
+      "apply": "Apply",
+      "individualBonuses": "Individual Bonuses",
+      "currentBonus": "Current bonus",
+      "allocate": "Allocate Bonuses",
+      "processing": "Processing...",
+      "success": "Bonus successfully allocated!",
+      "noPeriod": "No open budget period. Budgets are automatically created at the start of each month.",
+      "bonusSet": "bonus set for",
+      "employees": "employees",
+      "total": "total"
+    },
+    "reports": {
+      "title": "Reports",
+      "subtitle": "Aggregated vitality data — individual purchases are not visible",
+      "period": "Period",
+      "employees": "Employees",
+      "totalBudget": "Total Budget",
+      "spent": "Spent",
+      "utilization": "Utilization",
+      "noData": "No report data available yet",
+      "privacyNote": "Privacy: These reports contain only aggregated data. Individual employee purchases are not visible, in accordance with our double-blind privacy policy."
+    },
+    "settings": {
+      "title": "Settings",
+      "subtitle": "Manage company settings",
+      "companyInfo": "Company Information",
+      "companyName": "Company Name",
+      "domain": "Email Domain",
+      "feePerFte": "Monthly fee per FTE",
+      "subscription": "Subscription",
+      "contactPerson": "Contact Person",
+      "note": "Changes to company settings can be requested by contacting support@zynq.com"
+    },
+    "privacy": {
+      "title": "Privacy",
+      "message": "Your employees choose their own vitality. We respect their privacy — you only see aggregated data."
+    }
+  },
+  "employee": {
+    "dashboard": {
+      "title": "My Dashboard",
+      "budget": "My Budget",
+      "total": "Total",
+      "spent": "Spent",
+      "remaining": "Remaining",
+      "marketplace": "Marketplace",
+      "myOrders": "My Orders",
+      "recentOrders": "Recent Orders",
+      "recommended": "Recommended",
+      "noOrders": "No orders yet",
+      "browseMarketplace": "Browse the marketplace"
+    },
+    "marketplace": {
+      "title": "Marketplace",
+      "search": "Search...",
+      "categories": {
+        "all": "All",
+        "fitness": "Fitness",
+        "mindfulness": "Mindfulness",
+        "coaching": "Coaching",
+        "nutrition": "Nutrition"
+      },
+      "purchase": "Buy with Budget",
+      "confirmPurchase": "Confirm Order",
+      "insufficientBudget": "Insufficient budget",
+      "available": "available",
+      "noResults": "No results found",
+      "noOfferings": "No offerings available yet",
+      "offerings": "offerings",
+      "previous": "Previous",
+      "next": "Next",
+      "orderSuccess": "Order successful! Your budget has been updated."
+    },
+    "orders": {
+      "title": "My Orders",
+      "subtitle": "Overview of your purchases",
+      "date": "Date",
+      "offering": "Offering",
+      "amount": "Amount",
+      "status": "Status",
+      "noOrders": "No orders yet",
+      "browseMarketplace": "Browse the marketplace to place your first order"
+    },
+    "profile": {
+      "title": "Profile",
+      "subtitle": "Your personal settings",
+      "personalInfo": "Personal Information",
+      "name": "Name",
+      "email": "Email",
+      "fte": "FTE Score",
+      "company": "Company",
+      "preferences": "Preferences",
+      "language": "Language",
+      "languageNote": "Your language preference is used for the marketplace and emails"
+    }
+  },
+  "provider": {
+    "dashboard": {
+      "title": "Dashboard",
+      "totalOrders": "Total Orders",
+      "totalRevenue": "Total Revenue",
+      "activeOfferings": "Active Offerings",
+      "recentOrders": "Recent Orders",
+      "noOrders": "No orders yet",
+      "createOffering": "Create Offering",
+      "viewOrders": "View Orders",
+      "viewAnalytics": "View Analytics"
+    },
+    "offerings": {
+      "title": "My Offerings",
+      "subtitle": "Manage your products and services",
+      "createNew": "New Offering",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "category": "Category",
+      "type": "Type",
+      "duration": "Duration (months)",
+      "imageUrl": "Image URL",
+      "status": "Status",
+      "create": "Create Offering",
+      "creating": "Creating...",
+      "noOfferings": "No offerings yet",
+      "createFirst": "Create your first offering"
+    },
+    "orders": {
+      "title": "Orders",
+      "subtitle": "Overview of all orders for your offerings",
+      "noOfferings": "No offerings yet, so no orders",
+      "noOrders": "No orders yet",
+      "employee": "Employee",
+      "anonymous": "Anonymous",
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "fulfilled": "Fulfilled"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "subtitle": "Insights into your performance",
+      "totalOrders": "Total Orders",
+      "totalRevenue": "Total Revenue",
+      "uniqueCustomers": "Unique Customers",
+      "topOfferings": "Top Offerings",
+      "perPiece": "per piece",
+      "orders": "orders",
+      "noData": "No offerings yet to show analytics for"
+    },
+    "settings": {
+      "title": "Settings",
+      "subtitle": "Manage your provider profile",
+      "companyInfo": "Company Information",
+      "name": "Name",
+      "description": "Description",
+      "category": "Category",
+      "contactEmail": "Contact Email",
+      "website": "Website",
+      "status": "Status",
+      "note": "Changes to your profile can be requested by contacting support@zynq.com"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "subtitle": "Platform management and moderation",
+      "companies": "Companies",
+      "providers": "Providers",
+      "offerings": "Offerings",
+      "pending": "Pending",
+      "drafts": "Drafts",
+      "manageCompanies": "Manage Companies",
+      "manageCompaniesDesc": "Status, rates, and subscriptions",
+      "moderateProviders": "Provider Moderation",
+      "moderateProvidersDesc": "Approve, reject, or suspend",
+      "reviewOfferings": "Offering Review",
+      "reviewOfferingsDesc": "Quality control and activation",
+      "platformSettings": "Platform Settings",
+      "platformSettingsDesc": "Configuration and security",
+      "privacyTitle": "Double-Blind Privacy",
+      "privacyMessage": "As a platform administrator, you do not have access to individual employee purchases. Only aggregated data is visible."
+    },
+    "companies": {
+      "title": "Companies",
+      "subtitle": "Manage status, rates, and subscriptions",
+      "name": "Name",
+      "domain": "Domain",
+      "feePerFte": "Fee/FTE",
+      "plan": "Subscription",
+      "status": "Status",
+      "actions": "Actions",
+      "searchPlaceholder": "Search by name or domain...",
+      "noResults": "No companies found",
+      "activate": "Activate",
+      "suspend": "Suspend"
+    },
+    "providers": {
+      "title": "Providers",
+      "subtitle": "Approve, reject, or suspend",
+      "searchPlaceholder": "Search by name or category...",
+      "all": "All",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "suspended": "Suspended",
+      "selfService": "Self-Service",
+      "approve": "Approve",
+      "reject": "Reject",
+      "reactivate": "Reactivate",
+      "noResults": "No providers found"
+    },
+    "offerings": {
+      "title": "Offerings",
+      "subtitle": "Quality control and activation",
+      "searchPlaceholder": "Search by name, category, or provider...",
+      "all": "All",
+      "draft": "Draft",
+      "active": "Active",
+      "archived": "Archived",
+      "activate": "Activate",
+      "archive": "Archive",
+      "reactivate": "Reactivate",
+      "noResults": "No offerings found",
+      "months": "months"
+    },
+    "settings": {
+      "title": "Platform Settings",
+      "subtitle": "Configuration and platform statistics",
+      "platformStats": "Platform Statistics",
+      "totalCompanies": "Companies",
+      "totalEmployees": "Employees",
+      "totalProviders": "Providers",
+      "activeOfferings": "Active Offerings",
+      "totalOrders": "Orders",
+      "platformConfig": "Platform Configuration",
+      "defaultFeePerFte": "Default fee per FTE (€)",
+      "defaultLanguage": "Default language",
+      "supportedLanguages": "Supported languages",
+      "monthlyBillingCron": "Monthly billing cron",
+      "active": "active",
+      "security": "Security",
+      "rlsTitle": "Double-Blind RLS",
+      "rlsDesc": "Employers cannot access individual orders",
+      "domainMatchingTitle": "Email domain matching",
+      "domainMatchingDesc": "Employees can only join their company",
+      "cronProtectionTitle": "Cron protection",
+      "cronProtectionDesc": "Monthly billing requires CRON_SECRET",
+      "contactNote": "For changes to platform configuration or support, contact support@zynq.com"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms"
+  },
+  "errors": {
+    "notFound": {
+      "title": "Page not found",
+      "message": "The page you are looking for does not exist or has been moved.",
+      "backHome": "Back to home"
+    },
+    "serverError": {
+      "title": "Something went wrong",
+      "message": "An unexpected error occurred. Please try again or contact support.",
+      "retry": "Try again",
+      "backHome": "Back to home"
+    }
+  }
+}

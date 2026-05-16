@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f9f9f7;
+  --foreground: #1a1a1a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: Arial, sans-serif;
+  --font-serif: Georgia, serif;
+
+  /* Zynq brand colors */
+  --color-zynq-deep: #1a4030;
+  --color-zynq-green: #2d6a4f;
+  --color-zynq-mid: #52b788;
+  --color-zynq-light: #d8f3dc;
+  --color-zynq-pale: #f0faf4;
+  --color-zynq-amber: #d68910;
+  --color-zynq-red: #c0392b;
+  --color-zynq-dark: #1a1a1a;
+  --color-zynq-muted: #555555;
+  --color-zynq-warm: #f9f9f7;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-serif);
+  line-height: 1.85;
+}
